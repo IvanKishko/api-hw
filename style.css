@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  padding: 15px 25px 0 25px;
+  justify-content: space-between;
+  height: 100vh;
+  gap: 40px;
+  background-color: #f8f8f6;
+}
+.posts-container,
+.film-container {
+  width: 45%;
+  max-width: 50vw;
+}
+.line {
+  width: 2px;
+  background-color: #ccc;
+  height: 100%;
+}
+.text-title {
+  font-family: Georgia;
+  font-weight: 900;
+}
+button {
+  background: linear-gradient(to right, #00b4d8, #009bbe);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.size1 {
+  width: 280px;
+  height: 50px;
+}
+.size2 {
+  width: 100px;
+  height: 40px;
+}
+input {
+  width: 80%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 2px solid #00b4d8;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #333;
+}

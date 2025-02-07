@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="posts-container">
+      <h2 class="text-title post-title">Всі пости:</h2>
+      <button class="size1" type="button" onclick="getPosts()">
+        Нажміть, щоб побачити деякі пости
+      </button>
+      <div id="posts"></div>
+    </div>
+    <div class="line"></div>
+
+    <div class="film-container">
+      <h2 class="text-title film-title">Пошук фільму</h2>
+      <input type="text" id="movieTitle" placeholder="Введіть назву фільму" />
+      <button class="size2" onclick="searchMovie()">Знайти</button>
+      <div class="movie-info" id="movieInfo"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
